@@ -1,0 +1,21 @@
+body {background-color: #4fa800;}
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color:whitesmoke;
+}
+nav {
+    text-align: center;
+        padding: 3px;
+        background-color: Black;
+        color: whitesmoke;
+} 
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: Black;
+        color: whitesmoke;
+    }
+  
