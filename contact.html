@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- connecting html and css -->
+    <link rel="stylesheet" href="css/styles.css"> 
+    <!-- add the above to link to external file -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- above links to transition animation code-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+<style>
+body {
+  font-family:"Trirong", Verdana;
+}
+</style>
+<!-- lines 11 to 16 add a font from google fonts (Trirong), plus provides a fallback in house font (serif)-->
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <header id="header background">
+            <div class="texture"></div>
+        </header>
+        <h1>- Greenhouse Digital Design -</h1>
+        <p style="font-family:verdana">The Electronic Home of Chris Matthews</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="who i am.html">Who I Am</a> |
+        <a href="creations.html">Creations</a>
+    </nav>
+
+    <div class="container">
+        <h1 style="text-align:center;">
+            <!--above code changes where the text appears on the page; start, end, center, left and right are all viable options -->
+            Let's Connect!</h1>
+        
+                    <div class="container1">
+                <form action="mailto:c.gregoire714@gmail.com" method="post" enctype="text/plain">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Your Name</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="Name">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Contact Info (phone and/or email)</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="contact">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">What can I create for you?</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="Subject" style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+              </div>
+        
+        <h2 style="text-align:center;">
+        Thank you for your interest. I will contact you as soon as I am able to discuss your project further.
+        </h2>
+    </div>
+
+    <footer>
+        <p>- - Author: Christopher Matthews - - Copyright 2023 - - <a href="contact.html">Contact Me Here</a> - -</p>
+    </footer>
+
+</body>
+</html>
