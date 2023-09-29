@@ -21,7 +21,7 @@ body {
 <body>
 <header>
     <header id="header background">
-        <div class="texture"></div>
+        <div class="texture stickytop"></div>
     </header>
     <h1>- Greenhouse Digital Design -</h1>
     <p style="font-family:verdana">The Electronic Home of Chris Matthews</p>
@@ -33,23 +33,31 @@ body {
     <a href="creations.html">Creations</a>
 </nav>
 
-
+<!--<article id="index">-->
     <div class="container">
-    
-    <h1 style="text-align:center;">
-        <!--above code changes where the text appears on the page; start, end, center, left and right are all viable options -->
-        My Portfolio</h1>
-    
-    <p style="text-align:center;">
-        <!--above code changes where the text appears on the page; start, end, center, left and right are all viable options -->
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vero sequi veritatis, rem aspernatur voluptatem cupiditate itaque repudiandae? Eligendi fugit incidunt praesentium maiores ratione cupiditate minus eos porro, laborum ducimus.
-    </p>
+
+        <p id="time-based greeting"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 12) {
+  greeting = "Good morning";
+} else if (time < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("time-based greeting").innerHTML = greeting;
+</script>
+<!-- Above is a small if/else if/else JS that will provide a time-based greeting when a visitor arrives at the page. -->
 
     </div>
 
 
     <footer>
-        <p>- - Author: Christopher Matthews - - Copyright 2023 - - <a href="contact.html">Contact Me Here</a> - -</p>
+        <div class="stickybottom"></div>
+        <p>- - Author: Christopher Matthews - - Copyright 2023 - - <a href="contact.html">Contact Me Here </a> - -</p>
     </footer>
 
 </body>

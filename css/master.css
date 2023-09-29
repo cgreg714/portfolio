@@ -1,5 +1,6 @@
 .container {
     animation: transitionIn 2s;
+    padding-bottom: 500px;
 }
 
 @keyframes transitionIn {

@@ -1,34 +1,40 @@
-body {background-color: #4fa800;}
+body {background-color: #4fa800; position: relative; margin: 0;}
+  
+    header {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color:whitesmoke;
+        font-family: 'Courier New';
 
-header {
-    text-align: center;
-    padding: 3px;
-    background-color: black;
-    color:whitesmoke;
-    font-family: 'courier new';
+        background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip) ; 
+    alt: "freshly tilled soil";}
 
-    background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip) ; 
-}
-
-nav {
-    text-align: center;
+    nav {
+        text-align: center;
         padding: 3px;
         background-color: Black;
         color: whitesmoke;
         font-family:'Courier New';
         background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip);
-} 
+        alt: "freshly tilled soil";
+      }
+
+
     footer {
         text-align: center;
         padding: 3px;
         background-color: Black;
         color: whitesmoke;
         font-family:'Courier New';
-
+        bottom: 0;
+        position: absolute;
+        box-sizing: border-box;
+        width: 100%;
         background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip);
+        alt: "freshly tilled soil";
     }
-
-    <style>
+    
 a:link {
   color: #4fa800;
   background-color: transparent;
@@ -52,6 +58,8 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-</style>
+
+
+
 
 
