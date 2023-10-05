@@ -1,45 +1,44 @@
 body {background-color: #4fa800; position: relative; margin: 0;}
-  
-    header {
-        text-align: center;
-        padding: 3px;
-        background-color: black;
-        color:whitesmoke;
-        font-family: 'Courier New';
-
-        background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip) ; 
-    alt: "freshly tilled soil";}
-
-    nav {
-        text-align: center;
-        padding: 3px;
-        background-color: Black;
-        color: whitesmoke;
-        font-family:'Courier New';
+  /* if elements share the same style declarations, they can be listed and separated but commas, as in lines 3-13 */
+  header, 
+  nav,
+  footer {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family:'Courier New';
+    width: 100%;
         background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip);
         alt: "freshly tilled soil";
+  }
+    
+    
+      header {  
+        padding: 3px;
+      }
+
+
+    nav {
+        padding: 3px;
+        position: fixed;
+          top: 119px;
       }
 
 
     footer {
-        text-align: center;
         padding: 3px;
-        background-color: Black;
-        color: whitesmoke;
-        font-family:'Courier New';
+        position: fixed;
         bottom: 0;
-        position: absolute;
         box-sizing: border-box;
-        width: 100%;
-        background: url(https://images.theconversation.com/files/275002/original/file-20190516-69195-1yg53ff.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip);
-        alt: "freshly tilled soil";
-    }
+      }
     
+
 a:link {
   color: #4fa800;
   background-color: transparent;
   text-decoration: none;
 }
+
 
 a:visited {
   color: greenyellow;
@@ -47,11 +46,13 @@ a:visited {
   text-decoration: none;
 }
 
+
 a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
+
 
 a:active {
   color: yellow;
