@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- connecting html and css -->
@@ -9,16 +8,13 @@
     <!-- add the above to link to external file -->
     <link rel="stylesheet" href="css/master.css" />
     <!-- above links to transition animation code-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Trirong"/>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"/>
     <style>
       body {
         font-family: "Trirong", Verdana;
       }
     </style>
-    <!-- lines 14 to 20 add a font from google fonts (Trirong), plus provides a fallback in house font (serif)-->
+    <!-- lines 11 to 16 add a font from google fonts (Trirong), plus provides a fallback in house font (serif)-->
 
     <title>Christopher Matthews Portfolio</title>
   </head>
@@ -30,18 +26,20 @@
         <div class="texture stickytop"></div>
       </header>
       <h1>- Greenhouse Digital Design -</h1>
-      <p style="font-family: verdana">The Electronic Home of Chris Matthews</p>
+      <p>The Electronic Home of Christopher Matthews</p>
     </header>
 
     <nav>
       <a href="index.html">Home</|a> | <a href="who i am.html">Who I Am</a> |
       <a href="creations.html">Creations</a>
-    </nav>
+    </nav> 
 
     <!--<article id="index">-->
     <div class="container">
-      <!-- <div style="flex-grow: 1; width: 100%; height: 100%; overflow: auto,wrap;"> -->
-        
+      <!--<div style="flex-grow: 1; width: 100%; height: 100%; overflow: auto,wrap;">-->
+    <ul class="flex-grid">
+      <li class="flex-space">
+      
       <p id="time-based greeting"></p>
 
       <script>
@@ -57,12 +55,17 @@
         document.getElementById("time-based greeting").innerHTML = greeting;
       </script>
       <!-- Above is a small if/else if/else JS that will provide a time-based greeting when a visitor arrives at the page. -->
+      <p> You have reached my digital home. It is presently simple and sparse, but utilitarian in nature. Much like any living thing, 
+          it is a constantly growing, and ever-evolving creation. As it changes, so will I in my journey towards becoming a software developer.</p>
+    </li>
+    
+  </ul>  
     </div>
 
     <footer>
-
-      <p>- - Author: Christopher Matthews - - Copyright 2023 - -<a href="contact.html">Contact Me Here </a> - -</p>
+      <p style="position: absolute; bottom: 0; left: 0; width: 100%; text-align: center;">
+      - - Author: Christopher Matthews - - Copyright 2023 - -<a href="contact.html">Contact Me Here </a> - -</p>
       
-    </footer>
+  </footer>
   </body>
 </html>
