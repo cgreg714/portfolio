@@ -1,7 +1,9 @@
 .container {
-    animation: transitionIn 2s;
+    animation: transitionIn 3s;
     padding-bottom: 500px;
 }
+
+
 
 @keyframes transitionIn {
     from {
@@ -15,6 +17,7 @@
 
     }
 }
+
 
 /* Style inputs, select elements and text areas */
 input[type=text], select, textarea{
